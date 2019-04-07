@@ -46,7 +46,7 @@ public :
     inline XtraSystemStatusObserver(IOsObserver* sysStatObs, const MsgTask* msgTask):
             mSystemStatusObsrvr(sysStatObs), mMsgTask(msgTask),
             mGpsLock(-1), mConnections(~0), mXtraThrottle(true), mReqStatusReceived(false),
-            mDelayLocTimer(*this), mIsConnectivityStatusKnown (false) {
+            mIsConnectivityStatusKnown (false), mDelayLocTimer(*this) {
         subscribe(true);
         startListeningNonBlocking(LOC_IPC_HAL);
         mDelayLocTimer.start(100 /*.1 sec*/,  false);
@@ -60,7 +60,7 @@ public :
     inline virtual void getName(string& name);
     virtual void notify(const list<IDataItemCore*>& dlist);
 
-    bool updateLockStatus(uint32_t lock);
+    bool updateLockStatus(GnssConfigGpsLock lock);
     bool updateConnections(uint64_t allConnections);
     bool updateTac(const string& tac);
     bool updateMccMnc(const string& mccmnc);
@@ -74,7 +74,7 @@ protected:
 private:
     IOsObserver*    mSystemStatusObsrvr;
     const MsgTask* mMsgTask;
-    int32_t mGpsLock;
+    GnssConfigGpsLock mGpsLock;
     uint64_t mConnections;
     string mTac;
     string mMccmnc;

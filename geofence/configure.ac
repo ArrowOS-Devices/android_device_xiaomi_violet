@@ -1,22 +1,11 @@
-# configure.ac -- Autoconf script for gps gps-utils
-#
-# Process this file with autoconf to produce a configure script
-
-# Requires autoconf tool later than 2.61
 AC_PREREQ(2.61)
-# Initialize the gps gps-utils package version 1.0.0
-AC_INIT([gps-utils],1.0.0)
-# Does not strictly follow GNU Coding standards
+AC_INIT([location-geofence], 1.0.0)
 AM_INIT_AUTOMAKE([foreign])
-# Disables auto rebuilding of configure, Makefile.ins
-AM_MAINTAINER_MODE
-# Verifies the --srcdir is correct by checking for the path
 AC_CONFIG_SRCDIR([Makefile.am])
-# defines some macros variable to be included by source
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_MACRO_DIR([m4])
 
-# Checks for programs.
+# Check for programs
 AC_PROG_LIBTOOL
 AC_PROG_CXX
 AC_PROG_CC
@@ -28,30 +17,19 @@ AC_PROG_LN_S
 AC_PROG_MAKE_SET
 PKG_PROG_PKG_CONFIG
 
-AC_ARG_WITH([external_ap],
-    AC_HELP_STRING([--with-external_ap=@<:@dir@:>@],
-        [Using External Application Processor]),
-    [],
-    with_external_ap=no)
+# Check for libraries
+PKG_CHECK_MODULES([GPSUTILS], [gps-utils])
+AC_SUBST([GPSUTILS_CFLAGS])
+AC_SUBST([GPSUTILS_LIBS])
 
-if test "x$with_external_ap" != "xno"; then
-    CPPFLAGS="${CPPFLAGS} -DFEATURE_EXTERNAL_AP"
-else
-    # Checks for libraries.
-    PKG_CHECK_MODULES([CUTILS], [libcutils])
-    AC_SUBST([CUTILS_CFLAGS])
-    AC_SUBST([CUTILS_LIBS])
-fi
+PKG_CHECK_MODULES([LOCCORE], [loc-core])
+AC_SUBST([LOCCORE_CFLAGS])
+AC_SUBST([LOCCORE_LIBS])
 
-AC_ARG_WITH([core_includes],
-      AC_HELP_STRING([--with-core-includes=@<:@dir@:>@],
-         [Specify the location of the core headers]),
-      [core_incdir=$withval],
-      with_core_includes=no)
-
-if test "x$with_core_includes" != "xno"; then
-   CPPFLAGS="${CPPFLAGS} -I${core_incdir}"
-fi
+AS_CASE([$host],
+        [arm*], [ARM=yes],
+        [ARM=no]
+)
 
 AC_ARG_WITH([locpla_includes],
       AC_HELP_STRING([--with-locpla-includes=@<:@dir@:>@],
@@ -62,8 +40,6 @@ AC_ARG_WITH([locpla_includes],
 if test "x$with_locpla_includes" != "xno"; then
    AC_SUBST(LOCPLA_CFLAGS, "-I${locpla_incdir}")
 fi
-
-AC_SUBST([CPPFLAGS])
 
 AC_ARG_WITH([glib],
       AC_HELP_STRING([--with-glib],
@@ -84,9 +60,13 @@ fi
 
 AM_CONDITIONAL(USE_GLIB, test "x${with_glib}" = "xyes")
 
+AC_SUBST([CFLAGS])
+AC_SUBST([CPPFLAGS])
+AC_SUBST([LIBS])
+
 AC_CONFIG_FILES([ \
         Makefile \
-        gps-utils.pc
+        location-geofence.pc
         ])
 
 AC_OUTPUT
