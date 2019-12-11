@@ -14,6 +14,8 @@ $(call inherit-product-if-exists, vendor/xiaomi/violet/violet-vendor.mk)
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.control_privapp_permissions=log
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
