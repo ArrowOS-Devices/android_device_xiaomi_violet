@@ -20,7 +20,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.control_privapp_permissions=log
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-PRODUCT_ENFORCE_RRO_TARGETS := *
+PRODUCT_ENFORCE_RRO_TARGETS := \
+    framework-res
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
