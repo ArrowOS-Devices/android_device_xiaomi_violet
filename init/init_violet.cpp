@@ -30,12 +30,12 @@
 #include <stdlib.h>
 #define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
 #include <sys/_system_properties.h>
-
+#include <android-base/logging.h>
 #include <android-base/properties.h>
 #include "property_service.h"
-#include "vendor_init.h"
 
-using android::init::property_set;
+namespace android {
+namespace init {
 
 void property_override(char const prop[], char const value[])
 {
@@ -59,5 +59,10 @@ void vendor_load_properties()
 {
     // fingerprint
     property_override("ro.build.description", "violet-user 9 PKQ1.181203.001 V10.3.9.0.PFHINXM release-keys");
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
+    property_set("ro.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
+    property_set("ro.vendor.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
 }
+
+}
+}
+
