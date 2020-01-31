@@ -325,7 +325,7 @@ PRODUCT_COPY_FILES += \
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
-    libqti_vndfwk_detect
+    libqti_vndfwk_detect.vendor
 
 # Vendor SPL
 VENDOR_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)
