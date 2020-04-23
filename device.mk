@@ -160,9 +160,7 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiParts \
-    NoCutoutOverlay
-
+    XiaomiParts
 
 # Display
 PRODUCT_PACKAGES += \
