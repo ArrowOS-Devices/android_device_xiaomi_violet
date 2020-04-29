@@ -381,6 +381,8 @@ PRODUCT_PACKAGES += \
     libjson \
     libprotobuf-cpp-full \
     libprotobuf-cpp-lite \
+    libprotobuf-cpp-full-vendorcompat \
+    libprotobuf-cpp-lite-vendorcompat \
     librmnetctl \
     libxml2
 
