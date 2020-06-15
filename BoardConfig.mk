@@ -147,8 +147,6 @@ ODM_MANIFEST_SKUS += \
 ODM_MANIFEST_365_FILES := $(DEVICE_PATH)/manifest_sdmmagpie.xml
 ODM_MANIFEST_366_FILES := $(DEVICE_PATH)/manifest_sdmmagpie.xml
 
-ODM_MANIFEST_FILES := $(DEVICE_PATH)/manifest-qva.xml
-
 # Media
 TARGET_DISABLED_UBWC := true
 TARGET_USES_MEDIA_EXTENSIONS := true
