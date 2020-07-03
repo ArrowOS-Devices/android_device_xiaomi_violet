@@ -125,4 +125,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.high_fps_early_gl_phase_offset_ns=9000000 \
     debug.sf.phase_offset_threshold_for_next_vsync_ns=6100000 \
     debug.sf.latch_unsignaled=0 \
-    debug.sf.enable_hwc_vds=1
+    debug.sf.enable_hwc_vds=0
