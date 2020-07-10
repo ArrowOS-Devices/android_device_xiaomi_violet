@@ -8,6 +8,13 @@ ro.config.vc_call_vol_steps=15
 ro.qc.sdk.audio.fluencetype=none
 ro.qc.sdk.audio.ssr=false
 
+# Bluetooth
+persist.vendor.bt.a2dp.aac_whitelist=false
+persist.vendor.qcom.bluetooth.enable.splita2dp=true
+persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-a
+ptxtws-aptxhd-aptxadaptive-aac-ldac
+vendor.bluetooth.soc=cherokee
+
 # Camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
 
@@ -27,11 +34,6 @@ media.stagefright.enable-player=true
 media.stagefright.enable-qcp=true
 media.stagefright.enable-scan=true
 persist.mm.enable.prefetch=true
-
-# Bluetooth SOC type
-vendor.bluetooth.soc=cherokee
-persist.vendor.btstack.enable.splita2dp=true
-persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aptxadaptive-aac-ldac
 
 # Netmgr
 persist.data.df.dev_name=rmnet_usb0
