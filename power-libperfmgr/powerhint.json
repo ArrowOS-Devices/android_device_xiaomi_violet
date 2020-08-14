@@ -5,9 +5,7 @@
       "Path": "/sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq",
       "Values": [
         "9999999",
-        "1612800",
-        "1497600",
-        "1248000"
+        "1708800"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": true
@@ -17,11 +15,7 @@
       "Path": "/sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq",
       "Values": [
         "9999999",
-        "1612800",
-        "1497600",
-        "1324800",
-        "1248000",
-        "576000"
+        "1017600"
       ],
       "ResetOnInit": true
     },
@@ -30,10 +24,7 @@
       "Path": "/sys/devices/system/cpu/cpu6/cpufreq/scaling_max_freq",
       "Values": [
         "9999999",
-        "1939200",
-        "1708800",
-        "1555200",
-        "1324800"
+        "2016000"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": true
@@ -43,11 +34,7 @@
       "Path": "/sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq",
       "Values": [
         "9999999",
-        "1708800",
-        "1555200",
-        "1324800",
-        "1132800",
-        "825600"
+        "1017600"
       ],
       "ResetOnInit": true
     },
