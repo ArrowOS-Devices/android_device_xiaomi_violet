@@ -25,6 +25,9 @@ TARGET_2ND_CPU_VARIANT := cortex-a9
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := violet
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sm6150
 TARGET_NO_BOOTLOADER := true
