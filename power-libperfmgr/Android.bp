@@ -47,3 +47,11 @@ cc_binary {
     required: ["powerhint.json"],
     proprietary: true,
 }
+
+prebuilt_etc {
+    name: "powerhint.json",
+
+    src: "powerhint.json",
+    proprietary: true,
+
+}
