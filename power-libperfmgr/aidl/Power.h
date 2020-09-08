@@ -30,7 +30,7 @@ namespace google {
 namespace hardware {
 namespace power {
 namespace impl {
-namespace pixel {
+namespace sm6150 {
 
 using ::InteractionHandler;
 using ::aidl::android::hardware::power::Boost;
@@ -53,7 +53,7 @@ class Power : public ::aidl::android::hardware::power::BnPower {
     std::atomic<bool> mSustainedPerfModeOn;
 };
 
-}  // namespace pixel
+}  // namespace sm6150
 }  // namespace impl
 }  // namespace power
 }  // namespace hardware

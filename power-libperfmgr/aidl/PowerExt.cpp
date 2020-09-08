@@ -15,7 +15,7 @@
  */
 
 #define ATRACE_TAG (ATRACE_TAG_POWER | ATRACE_TAG_HAL)
-#define LOG_TAG "android.hardware.power-service.pixel.ext-libperfmgr"
+#define LOG_TAG "android.hardware.power-service.sm6150.ext-libperfmgr"
 
 #include "PowerExt.h"
 
@@ -35,7 +35,7 @@ namespace google {
 namespace hardware {
 namespace power {
 namespace impl {
-namespace pixel {
+namespace sm6150 {
 
 ndk::ScopedAStatus PowerExt::setMode(const std::string &mode, bool enabled) {
     LOG(DEBUG) << "PowerExt setMode: " << mode << " to: " << enabled;
@@ -79,7 +79,7 @@ ndk::ScopedAStatus PowerExt::isBoostSupported(const std::string &boost, bool *_a
     return ndk::ScopedAStatus::ok();
 }
 
-}  // namespace pixel
+}  // namespace sm6150
 }  // namespace impl
 }  // namespace power
 }  // namespace hardware

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.power-service.pixel-libperfmgr"
+#define LOG_TAG "android.hardware.power-service.sm6150-libperfmgr"
 
 #include <thread>
 
@@ -26,8 +26,8 @@
 #include "Power.h"
 #include "PowerExt.h"
 
-using aidl::google::hardware::power::impl::pixel::Power;
-using aidl::google::hardware::power::impl::pixel::PowerExt;
+using aidl::google::hardware::power::impl::sm6150::Power;
+using aidl::google::hardware::power::impl::sm6150::PowerExt;
 using ::android::perfmgr::HintManager;
 
 constexpr char kPowerHalConfigPath[] = "/vendor/etc/powerhint.json";
