@@ -30,7 +30,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="violet" \
     TARGET_DEVICE="violet"
 
-BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys"
+BUILD_FINGERPRINT := "google/sunfish/sunfish:11/RP1A.200720.010/6722941:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
