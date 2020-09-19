@@ -36,14 +36,14 @@ cc_defaults {
         "clang-analyzer-security*",
     ],
     tidy_flags: [
-        "-warnings-as-errors=android-*,clang-analyzer-security*,cert-*"
+        "-warnings-as-errors=android-*,clang-analyzer-security*,cert-*",
     ],
 }
 
 cc_library {
     name: "libperfmgr",
-    vendor_available: true,
     defaults: ["libperfmgr_defaults"],
+    vendor_available: true,
     export_include_dirs: ["include"],
     srcs: [
         "RequestGroup.cc",
@@ -52,7 +52,7 @@ cc_library {
         "PropertyNode.cc",
         "NodeLooperThread.cc",
         "HintManager.cc",
-    ]
+    ],
 }
 
 cc_test {
@@ -65,7 +65,7 @@ cc_test {
         "tests/PropertyNodeTest.cc",
         "tests/NodeLooperThreadTest.cc",
         "tests/HintManagerTest.cc",
-    ]
+    ],
 }
 
 cc_binary {
@@ -74,5 +74,5 @@ cc_binary {
     static_libs: ["libperfmgr"],
     srcs: [
         "tools/ConfigVerifier.cc",
-    ]
+    ],
 }

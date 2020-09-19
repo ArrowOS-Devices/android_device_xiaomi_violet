@@ -1,6 +1,6 @@
 soong_namespace {
     imports: [
         "hardware/google/interfaces",
-        "hardware/xiaomi"
+        "hardware/xiaomi",
     ],
 }
