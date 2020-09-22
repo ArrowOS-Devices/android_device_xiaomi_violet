@@ -279,7 +279,9 @@ PRODUCT_COPY_FILES += \
 # Libhw
 PRODUCT_PACKAGES += \
     libhwbinder \
-    libhwbinder.vendor
+    libhwbinder.vendor \
+    libhidltransport \
+    libhidltransport.vendor
 
 # Lights
 PRODUCT_PACKAGES += \
