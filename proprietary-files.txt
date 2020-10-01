@@ -750,6 +750,7 @@ vendor/lib/libsdm-diag.so|0e9a778b540bcb918f84bb125cf07f29e422e6dc
 vendor/lib/libsdm-disp-vndapis.so|c78d69efe54441c39146991bf748aa453bc38d1a
 vendor/lib/libsdmextension.so|bb8ece3d134ec720f34524532906975670ebdd06
 vendor/lib/libtinyxml2_1.so|655efc7e2a0ec6714d6c2883a2836197a1b4a8eb
+vendor/bin/hw/android.hardware.graphics.composer@2.3-service
 
 # Graphics (Vulkan)
 vendor/lib64/hw/vulkan.sm6150.so
