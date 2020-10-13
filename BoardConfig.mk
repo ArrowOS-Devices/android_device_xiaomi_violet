@@ -245,5 +245,7 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/violet/BoardConfigVendor.mk
