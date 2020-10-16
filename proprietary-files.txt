@@ -672,7 +672,7 @@ vendor/bin/hw/vendor.display.color@1.0-service|8646c74c5b19e6d5086d7a4f83e075761
 # Qualcomm removed android.hidl.base@1.0 dependency on this one
 
 # Power-off charging daemon
--bin/charger:bin/chargeonlymode
+bin/charger:bin/chargeonlymode
 
 # Snapdragon Computer Vision Engine - from LA.UM.8.9.r1-04400-SM6xx.0
 vendor/etc/scve/facereco/gModel.dat|447e5e3fefe8bcf36db0f7a8595c63fb326879ba
