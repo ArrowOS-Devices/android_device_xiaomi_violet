@@ -876,7 +876,7 @@ vendor/lib64/libthermalfeature.so
 vendor/etc/init/init_thermal-engine.rc|f0d14aa4734b2e8afd61a4eed73238187b268f48
 
 # Time - from LA.UM.8.9.r1-04400-SM6xx.0
--vendor/app/TimeService/TimeService.apk;:timeservice_app_cert|4a37afd1395758d946580af184a738e3c657b1e2
+-vendor/app/TimeService/TimeService.apk|4a37afd1395758d946580af184a738e3c657b1e2
 vendor/bin/time_daemon|cf03d8aabb356a278c1145388cc9bceb766d0d33
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|fb957aa23b8562678dd1289e67c25c4205ef3bd6
