@@ -406,6 +406,9 @@ PRODUCT_PACKAGES += \
     qti-telephony-utils \
     telephony-ext
 
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 # TextClassifier
 PRODUCT_PACKAGES += \
     textclassifier.bundle1
@@ -459,6 +462,9 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.system \
     libqdMetaData.vendor
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
 
 # Hacc
 PRODUCT_BOARD_PLATFORM := sm6150
