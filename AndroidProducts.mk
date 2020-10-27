@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_violet.mk
+    $(LOCAL_DIR)/arrow_violet.mk
 
 COMMON_LUNCH_CHOICES := \
     pixys_violet-userdebug \
