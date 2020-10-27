@@ -8,6 +8,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/arrow_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixys_violet-userdebug \
-    pixys_violet-eng \
-    pixys_violet-user
+    arrow_violet-userdebug \
+    arrow_violet-eng \
+    arrow_violet-user
