@@ -231,3 +231,6 @@ renderthread.skia.reduceopstasksplitting=true
 
 # WiFi
 wifi.aware.interface=wifi-aware0
+
+# Zygote
+zygote.critical_window.minute=10
