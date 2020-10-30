@@ -3,18 +3,18 @@
     "remote": "lineage",
     "repository": "android_hardware_xiaomi",
     "target_path": "hardware/xiaomi",
-    "branch": "lineage-17.1"
+    "branch": "lineage-18.0"
   },
   {
-    "remote": "pixys-devices",
-    "repository": "kernel_xiaomi_sm6150",
+    "remote": "Panchajanya1999",
+    "repository": "msm-4.14",
     "target_path": "kernel/xiaomi/sm6150",
-    "branch": "ten"
+    "branch": "Q"
   },
   {
-    "remote": "pixys-vendor",
-    "repository": "vendor_xiaomi_violet",
+    "remote": "ArrowOS-Devices",
+    "repository": "android_vendor_xiaomi_violet",
     "target_path": "vendor/xiaomi",
-    "branch": "ten"
+    "branch": "arrow-11.0"
   }
 ]
