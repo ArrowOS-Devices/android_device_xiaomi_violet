@@ -14,6 +14,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
+DEVICE_MAINTAINER := Aftab Ashrafi
 PRODUCT_NAME := arrow_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
