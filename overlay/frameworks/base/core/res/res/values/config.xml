@@ -193,7 +193,7 @@
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
 
     <!-- Whether the always on display mode is available. -->
-    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+    <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
 
     <!-- Control whether the always on display mode is enabled by default. This value will be used
          during initialization when the setting is still null. -->
@@ -589,9 +589,6 @@
 
     <!-- Whether device ignores the RSSNR signal implementation -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
-
-    <!-- Default state for LiveDisplay -->
-    <bool name="config_liveDisplayAvailable">true</bool>
 
     <!-- The bounding path of the cutout region of the main built-in display.
          Must either be empty if there is no cutout region, or a string that is parsable by
