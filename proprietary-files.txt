@@ -447,61 +447,56 @@ vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
 vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
 vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
 
-# DPM - from LA.UM.8.9.r1-07100-SM6xx.0
-framework/tcmclient.jar|6ef9ca98f67c144fc8ae941bb3a47f99cbd93098
-product/bin/dpmd|a70053cbaadbfdce93a85da4a9e55b096a75a83a
-product/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
-product/etc/init/dpmd.rc|7f95195a89fddce06b93006a737701270e91f669
-product/etc/permissions/com.qti.dpmframework.xml|4613f8b8629d0b823e6aaab45d399ac30da06c09
-product/etc/permissions/dpmapi.xml|0991b3069308620cfcad53873e9f09af181b981d
-product/framework/com.qti.dpmframework.jar|7adf5e0e96c155acfe66c7256e06e48c1ee35d13
-product/framework/dpmapi.jar|4696df9793ad676b305d53b5d7ce65ecf74771ad
-product/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe1950bb
-product/lib64/libdiag_system.so|4579d722de2e071ef640dd7c572aa08773d5533a
-product/lib64/libdpmctmgr.so|30edca46d4d0f6ecdb86169bf9839375a77c6d27
-product/lib64/libdpmfdmgr.so|8c852ffa26dac26fd87eab57f4c2f46fff5163fa
-product/lib64/libdpmtcm.so|cd964bbad1930a8ccd5a878b5a2d8f414a6a75a8
--product/priv-app/dpmserviceapp/dpmserviceapp.apk|9fd873c5330c03c62dfdeb6540b5984588295319
-vendor/bin/dpmQmiMgr|ef031f1c58cd332c4e35a6be03393fee7bdb5181
-vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|ab5d46cbf14ce90ab44aaab4dc1520378c568033
-vendor/lib64/libdpmqmihal.so|d5b8330b56d7e0c036b00a817754748bf3137774
-
-# DPM - from oneplus8 - qssi-user-11-RP1A.201005.001-2009051300-release-keys
+# DPM - from LA.UM.9.1.r1-06700-SMxxx0.0
+framework/tcmclient.jar|22858e8bb7e3f956e487dc6764ad8250f118d7ac
+system_ext/bin/dpmd|bc22fa258f3975744e248dc7d9f26a00a9981ca7
+system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
+system_ext/etc/init/dpmd.rc|738b638ff04cda368e22c03e16baf90ba157a6fc
+system_ext/etc/permissions/com.qti.dpmframework.xml|c4b7ad0879d00c1eba4f3fe3a88ddb8aa153629a
+system_ext/etc/permissions/dpmapi.xml|9158c9789cc7135a685b3fb27f8cc27108b51fef
+system_ext/framework/com.qti.dpmframework.jar|6c2a814d2a1b175b5be47640d75ebf7d23435a5a
+system_ext/framework/dpmapi.jar|a2c04b0850b02dc5ec01e08f856b4facfd08b997
+system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|f2d02195cca305fad78402c65d090bad72955262
+system_ext/lib64/libdiag_system.so|db6ac11e4cebc966a0eb8e86ff4b22d4cd83ed1f
+system_ext/lib64/vendor.qti.diaghal@1.0.so|7529a7fe144d995ec211455a4b72f28782470171
+system_ext/lib64/libdpmctmgr.so|df8427f799e6a8cc5ff2ff39fe0323d8b60e815a
+system_ext/lib64/libdpmfdmgr.so|bd1bbd376c2bdfac2f3a4c230ce65cd35cb1c6bd
 system_ext/lib64/libdpmframework.so|67ebd736333ae7158632735e3db06a4f9664f6a6
+system_ext/lib64/libdpmtcm.so|ddef98d55e3045ebac458b38165acd5d2f75cd7a
+-system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|6bccb28994dd8505ef53fe4ffcd13d6e83088049
+vendor/bin/dpmQmiMgr|d7b0b3aad408e4a492a2d79d37f55ecd78d15458
+vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|188222f7cda270cad18757cf59710978f8657105
+vendor/lib64/libdpmqmihal.so|84dad3cd086791473878b353ef5aef6b6d495137
 
-# DRM - from LA.UM.8.9.r1-07100-SM6xx.0
-vendor/bin/qseecomd|70b84d6f6a5c59826ad75c80648a1a25eff1cbc1
+# DRM - from LA.UM.9.1.r1-06700-SMxxx0.0
+vendor/bin/qseecomd|6a0e2b03423b35788a701b822fd65d9890a46adf
 vendor/etc/gpfspath_oem_config.xml|7aeade35b0bbe27530f6aca8c1ed5192a7acf59d
-vendor/etc/init/qseecomd.rc|3e596c60490756388a5bd56378a91d0db7c3779b
-vendor/lib64/libGPreqcancel.so|bfff7b7d51e917a16b9a15a27fb81e16d0359348
-vendor/lib64/libGPreqcancel_svc.so|5a898d2f54dd1c0c072829c18bc07fe5aec38119
-vendor/lib64/libQSEEComAPI.so|dbe1635bab106734ebc0f0839c74b220d2c4e630
-vendor/lib64/libSecureUILib.so|1dc72d41cfee5a908710989880e9ebdbf3919ee3
-vendor/lib64/libStDrvInt.so|8de13b46e8f21016c0fffaec34b0a2bacfccec04
-vendor/lib64/libdrmfs.so|d4d19dcd0aab6d62a2069d5807a0c33dea704af1
-vendor/lib64/libdrmtime.so|4e217cd2c0b6386eafa51e730baf8831f58ea4b8
-vendor/lib64/libqisl.so|c4e7f283f3d416b784f2ec0f7000d607e044809b
-vendor/lib64/librpmb.so|d0fd210fa30dd02be655c6ab2ee9db34d84cf12e
-vendor/lib64/libsecureui.so|f9f81bfaee498bc28ddcba2480cdf4b9a5af59e6
-vendor/lib64/libsecureui_svcsock.so|316b2f2225c8711b2cdfde43b889a91a7946f3de
-vendor/lib64/libsi.so|0799636c3004948d7c12741e0338aa42fc615899
-vendor/lib64/libssd.so|3b161674d4e83ceef28260686b498e2a5dbb0327
-vendor/lib/libQSEEComAPI.so|b30e8077449164cb5c6246041dcc2fda96f498d0
-vendor/lib/libcpion.so|63b8c485d90b1e38ea3426b172cb93f869c7480e
-vendor/lib/libdrmfs.so|cb73770f243a4ad32b2f9dac29bc138f977ed2a7
+vendor/etc/init/qseecomd.rc|9c3b9c649e2bb8959b14d0e1278a390ddb15dc5e
+vendor/lib64/libGPreqcancel.so|7e47b162a5baa4570a8f53f4d4451fd57c391210
+vendor/lib64/libGPreqcancel_svc.so|35b71c1ff3816de1089901d3b32af39ece4c315c
+vendor/lib64/libQSEEComAPI.so|835aca441f1cafc0be2d7df9bffe11d9b1534e35
+vendor/lib64/libSecureUILib.so|43203f3bea932e602672177eee2fe94df3e98e70
+vendor/lib64/libStDrvInt.so|095780183be2789198974e1bbe833ccd1b5f33dc
+vendor/lib64/libdrmfs.so|622e74033bfe9f07d4686a936367b620fcdb3a7c
+vendor/lib64/libdrmtime.so|012ce75364db4108ca811f730cb2add4d2c32c45
+vendor/lib64/libops.so|bfca36a39fad0098bc1fef91f0879c17230dd037
+vendor/lib64/libqisl.so|4a2f72346c7f4b3368b88582da7cc7487a3be5ce
+vendor/lib64/librpmb.so|242742ba92bab2c67d66fe581fc83d9d1c5e8ad6
+vendor/lib64/libsecureui.so|0e8ff2a1b7b19fa65b7d575d286912e5c5710f44
+vendor/lib64/libsecureui_svcsock.so|0d17798788c8fc7e48a18ed04ec0215247fcb2cf
+vendor/lib64/libsi.so|15654096a6c36ee2894f3d9c8134444f05789171
+vendor/lib64/libssd.so|87556d685d37f77f212d45a8e5ce13c64f162d78
 
-# DRM - Widevine
-vendor/bin/hw/android.hardware.drm@1.2-service.widevine
-vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
-vendor/lib64/libbase64.so
-vendor/lib64/libcpion.so
-vendor/lib64/librmp.so
-vendor/lib64/mediadrm/libwvdrmengine.so
-vendor/lib/libbase64.so
-vendor/lib/libcppf.so
-vendor/lib/librmp.so
-vendor/lib/mediadrm/libwvdrmengine.so
+# DRM - Widevine - from tucana-user 11 RKQ1.200826.002 20.10.15 release-keys 
+vendor/bin/hw/android.hardware.drm@1.3-service.widevine|07ac13a602f25788e54c1500c2957f561dd9f90a
+vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|c35e1a6f9a6faff19064a81e07c4be82ceaf4bb5
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
+vendor/lib64/libbase64.so|7affa7459f91bec1a7f5aeab83c0cc6349354853
+vendor/lib64/libcpion.so|103e6756e87912b34d910d424f2658580fea025c
+vendor/lib64/libwvhidl.so|2abdbc8966795ed903062ec1a8ba2e79bb5883f8
+vendor/lib64/librmp.so|2e84f3e665bbce083aefb5eaf9fcc4fbcd17ec31
+vendor/lib64/mediadrm/libwvdrmengine.so|8e9f726c51650e4e80a06fbb7a16252d023c6b96
 
 # DRM - Widevine -L1 - from DAVINCIGLOBAL
 vendor/lib64/liboemcrypto.so|2cee717b25559030a61709e826b4a5dae6043c20
