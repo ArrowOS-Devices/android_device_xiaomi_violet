@@ -1,20 +1,14 @@
 [
   {
-    "remote": "ArrowOS-Devices",
     "repository": "android_hardware_xiaomi",
-    "target_path": "hardware/xiaomi",
-    "branch": "arrow-11.0"
+    "target_path": "hardware/xiaomi"
   },
   {
-    "remote": "ArrowOS-Devices",
     "repository": "android_kernel_xiaomi_violet",
-    "target_path": "kernel/xiaomi/sm6150",
-    "branch": "arrow-11.0"
+    "target_path": "kernel/xiaomi/sm6150"
   },
   {
-    "remote": "ArrowOS-Devices",
     "repository": "android_vendor_xiaomi_violet",
-    "target_path": "vendor/xiaomi",
-    "branch": "arrow-11.0"
+    "target_path": "vendor/xiaomi"
   }
 ]
