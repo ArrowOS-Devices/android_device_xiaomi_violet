@@ -6,3 +6,6 @@ allow system_app sysfs_battery_supply:file { getattr };
 # VioletParts
 allow system_app sysfs_fcharge:file { open read getattr write };
 allow system_app sysfs_fastcharge:file { open read getattr write };
+
+# Fps Info
+allow system_app vendor_sysfs_graphics:file { getattr open read };
