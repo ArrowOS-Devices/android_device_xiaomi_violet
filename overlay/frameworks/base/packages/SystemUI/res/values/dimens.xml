@@ -35,4 +35,11 @@
     <dimen name="multi_user_switch_keyguard_margin">25px</dimen>
 
     <dimen name="keyguard_carrier_text_margin">55px</dimen>
+
+    <!-- Power button location -->
+    <dimen name="physical_power_button_center_screen_location_y">950px</dimen>
+
+    <!-- Fingerprint sensor location -->
+    <dimen name="physical_fingerprint_sensor_center_screen_location_y">550px</dimen>
+
 </resources>
