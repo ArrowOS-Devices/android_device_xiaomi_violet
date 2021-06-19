@@ -637,7 +637,6 @@ vendor/lib64/libqcbor.so|7da5294a577f5a71ede5b3804a026bf69bd025ee
 vendor/lib64/libqtikeymaster4.so|897a4e7cf3a25e7d5b5946404fc5a6e7fd51cce0
 
 # Listen - from 11500.02 SMxxx0
-vendor/lib/hw/sound_trigger.primary.sm6150.so|1cd33ef6fd82654e8e6e16eb13206ce8a34760dd
 vendor/lib/librice.so|30f281ca3307bee5072c7b1eeea743b466af95ac
 vendor/lib/libsmwrapper.so|6c54b63ef92319b660854065623f30e8b94d3444
 
