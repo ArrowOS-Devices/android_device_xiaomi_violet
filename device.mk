@@ -409,7 +409,8 @@ PRODUCT_PACKAGES += \
 
 # Sensor
 PRODUCT_PACKAGES += \
-    libsensorndkbridge
+    libsensorndkbridge \
+    android.hardware.sensors@2.0.vendor
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
