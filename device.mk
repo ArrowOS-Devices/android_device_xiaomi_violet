@@ -255,13 +255,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hotword-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml
 
-# IFAA manager
-PRODUCT_PACKAGES += \
-    org.ifaa.android.manager
-
-PRODUCT_BOOT_JARS += \
-    org.ifaa.android.manager
-
 # IMS
 PRODUCT_PACKAGES += \
     ims-ext-common \
@@ -275,6 +268,12 @@ PRODUCT_COPY_FILES += \
 # Insmod files
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/init.insmod.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.cfg
+# IFAA manager
+#PRODUCT_PACKAGES += \
+    org.ifaa.android.manager
+
+#PRODUCT_BOOT_JARS += \
+    org.ifaa.android.manager
 
 # IPACM
 PRODUCT_PACKAGES += \
