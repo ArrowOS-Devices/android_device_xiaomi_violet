@@ -251,6 +251,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hotword-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml
 
+# Init scripts
+PRODUCT_PACKAGES += \
+    init.temp.rc
+
 # IMS
 PRODUCT_PACKAGES += \
     ims-ext-common \
