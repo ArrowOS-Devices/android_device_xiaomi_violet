@@ -486,6 +486,9 @@ vendor/lib/libcppf.so|70d5c828d409ea0580d087cca937ae956715c821
 vendor/lib/librmp.so|329fdbba89b4cf2633809bd2b350aade192fb56e
 vendor/lib/mediadrm/libwvdrmengine.so|1f62a9852e5d211889136fc038bafe5a825622e3
 
+# DRM - Widevine - from davinci-user 11 RKQ1.200826.002 21.2.3 release-keys
+vendor/lib64/libhdcpsrm.so|b8a39941e5071790c31435fe1a0d03030c63fd78
+
 # DRM - Widevine -L1 - from DAVINCIGLOBAL
 vendor/lib64/liboemcrypto.so|2cee717b25559030a61709e826b4a5dae6043c20
 vendor/lib/liboemcrypto.so|b349d1d049709bbdff15a133698264dc8c01db14
