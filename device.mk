@@ -264,11 +264,12 @@ PRODUCT_COPY_FILES += \
 # Insmod files
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/init.insmod.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.cfg
+
 # IFAA manager
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     org.ifaa.android.manager
 
-#PRODUCT_BOOT_JARS += \
+PRODUCT_BOOT_JARS += \
     org.ifaa.android.manager
 
 # IPACM
