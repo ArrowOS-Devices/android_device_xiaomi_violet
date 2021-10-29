@@ -29,4 +29,9 @@
 
     <!-- Margin on the right side of the system icon group on Keyguard. -->
     <dimen name="system_icons_keyguard_padding_end">12dp</dimen>
+
+    <!-- Physical power button and FP sensor location -->
+    <dimen name="physical_power_button_center_screen_location_y">950px</dimen>
+    <dimen name="physical_fingerprint_sensor_center_screen_location_y">550px</dimen>
+
 </resources>
