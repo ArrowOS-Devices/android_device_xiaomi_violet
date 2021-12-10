@@ -32,6 +32,9 @@ USE_GAPPS := true
 # Google Recorder
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
+# Official
+AWAKEN_BUILD_TYPE := OFFICIAL
+
 PRODUCT_NAME := awaken_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
