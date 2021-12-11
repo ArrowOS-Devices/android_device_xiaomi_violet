@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/wave_violet.mk
+    $(LOCAL_DIR)/awaken_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    wave_violet-user \
-    wave_violet-userdebug \
-    wave_violet-eng
+    awaken_violet-user \
+    awaken_violet-userdebug \
+    awaken_violet-eng

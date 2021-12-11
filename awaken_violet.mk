@@ -19,11 +19,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common WaveOS stuff.
-TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/wave/configs/common.mk)
+# Inherit some common Awaken stuff.
+$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 
-PRODUCT_NAME := wave_violet
+# Boot Animation Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# GApps
+TARGET_GAPPS_ARCH := arm64
+USE_GAPPS := true
+
+# Google Recorder
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
+PRODUCT_NAME := awaken_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
