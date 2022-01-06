@@ -32,3 +32,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=google/redfin/redfin:12/SPB5.210812.002/7671067:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# ArrowOS additions
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
