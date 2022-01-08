@@ -15,7 +15,7 @@ vendor/lib/libadsp_default_listener.so|49d7644708419ea077ffd9d00901ebf6cdd4377c
 vendor/lib/libadsprpc.so|eae169c0fd03286d49419e521949b1f57fc2e38b
 vendor/lib/libcdsp_default_listener.so|6a3f97faf26da3d01f7895d37c09c8bc62030e0a
 
-# ADSP modules - from sweet-user 11 RKQ1.200826.002 V12.5.3.0.RKFEUXM
+# ADSP modules - from Redmi Note 10 Pro V12.5.9.0.RKFMIXM
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|59cbdf5d84ba2ff64014941f3ad9e6c2c35e2c06
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so|136ee309e7c9892d55b3e87e45cd0ab39120658e
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|e25f1087edc95d2ff76c1e37787ca37aae2cf175
@@ -450,12 +450,12 @@ vendor/lib64/libssd.so|0a461a98eb314fe6e79bfe08457a88e48c52550a
 # DRM L1
 vendor/lib64/liboemcrypto.so
 
-# DRM widevine - from sweet-user 11 RKQ1.200826.002 V12.5.3.0.RKFEUXM
+# DRM widevine - from Redmi Note 10 Pro V12.5.9.0.RKFMIXM
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine|07ac13a602f25788e54c1500c2957f561dd9f90a
-vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|c35e1a6f9a6faff19064a81e07c4be82ceaf4bb5
+vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|a9ce64f68c86725c06c1b1429e90b04ff96ebf60
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
-vendor/lib64/libwvhidl.so|caa7d724b3f9816c93b1e2cbf0c8be0e1a9902ce
-vendor/lib64/mediadrm/libwvdrmengine.so|9f38ba4fba439e9ecdb7b3a7f89d878825ae3529
+vendor/lib64/libwvhidl.so|cb7dc042695e099c16806075b120aca92557f0de
+vendor/lib64/mediadrm/libwvdrmengine.so|0662f681317faf77dca51a2bcce09d63935578de
 
 # DSP - from LA.UM.9.1.r1-10900-SMxxx0.0
 vendor/bin/dspservice|a7344fc3d27a49df30858ebc3f73ee5818e752d4
@@ -883,7 +883,7 @@ vendor/etc/sensors/config/tmd2725.json
 vendor/etc/sensors/config/tmx4903.json
 vendor/etc/sensors/sns_reg_config
 
-# Soter - from sweet-user 11 RKQ1.200826.002 V12.5.3.0.RKFEUXM
+# Soter - from Redmi Note 10 Pro V12.5.9.0.RKFMIXM
 -app/SoterService/SoterService.apk|9d41ded29f97671f28874f1f4c5921844bc46a3a
 
 # Soter - from LA.UM.9.1.r1-10900-SMxxx0.0
@@ -994,5 +994,5 @@ vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so|fefea0a3279f85
 # WLAN - from LA.UM.9.1.r1-10900-SMxxx0.0
 vendor/bin/cnss-daemon|2efe1199ef5eaee518127edebab356ed934fdf7a
 
-# Xiaomi MAC - from sweet-user 11 RKQ1.200826.002 V12.5.3.0.RKFEUXM
+# Xiaomi MAC - from Redmi Note 10 Pro V12.5.9.0.RKFMIXM
 vendor/bin/nv_mac|292eab960355eae44a338b2011b0032bc7df422e
