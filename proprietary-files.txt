@@ -1,4 +1,4 @@
-# All unpinned blobs were pulled from VIOLETINGlobal_V12.0.5.0.QFHINXM
+# These proprietary files are extracted from Redmi Note 7 Pro (codenamed `violet`) MIUI V12.5.4.0.QFHCNXM, unless pinned
 
 # ADSP - from LA.UM.9.1.r1-10900-SMxxx0.0
 vendor/bin/adsprpcd|5e246a6f5d2dca27e29b233a17e4673532191b95
@@ -447,8 +447,8 @@ vendor/lib64/libQSEEComAPI.so|7477a266e70d768917339947e5847b2d89cc61f1
 vendor/lib64/librpmb.so|9ddc3b22dbde8b60aaf531601ac452e945d95a14
 vendor/lib64/libssd.so|0a461a98eb314fe6e79bfe08457a88e48c52550a
 
-# DRM L1
-vendor/lib64/liboemcrypto.so
+# DRM L1 - from Redmi Note 7 Pro V12.5.1.0.QFHINXM
+vendor/lib64/liboemcrypto.so|2cee717b25559030a61709e826b4a5dae6043c20
 
 # DRM widevine - from Redmi Note 10 Pro V12.5.9.0.RKFMIXM
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine|07ac13a602f25788e54c1500c2957f561dd9f90a
@@ -523,7 +523,6 @@ vendor/firmware/a615_zap.b00
 vendor/firmware/a615_zap.b01
 vendor/firmware/a615_zap.b02
 vendor/firmware/a615_zap.elf
-vendor/firmware/a618_gmu.bin
 vendor/firmware/a630_sqe.fw
 
 # Gatekeeper - from LA.UM.9.1.r1-10900-SMxxx0.0
@@ -622,7 +621,6 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|beeb9324900da6582f92ff
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|460e589128fce0b0e83bb3c75aa32f7e1a9494fd
 
 # IPA
-vendor/etc/init/ipa_fws.rc
 vendor/firmware/ipa_fws.b00
 vendor/firmware/ipa_fws.b01
 vendor/firmware/ipa_fws.b02
@@ -903,6 +901,7 @@ vendor/etc/thermal-engine-pubgmhd.conf
 vendor/etc/thermal-engine-sgame.conf
 vendor/etc/thermal-engine-studio.conf
 vendor/etc/thermal-engine-tgame.conf
+vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalfeature.so
 
 # Time - from LA.UM.9.1.r1-10900-SMxxx0.0
