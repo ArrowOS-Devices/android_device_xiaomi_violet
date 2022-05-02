@@ -76,12 +76,20 @@ on post-fs-data
     mkdir /data/vendor/thermal 0771 root system
     mkdir /data/vendor/thermal/config 0771 root system
 
+    # Create fingerprint related directory
+    mkdir /data/vendor/fpc 0770 system system
+    mkdir /data/vendor/goodix 0770 system system
+
 on boot
     start rmt_storage
     start rfs_access
 
     # Set thermal mode to evaluation
     chown system system /sys/class/thermal/thermal_message/sconfig
+
+    # Set fingerprint related permissions
+    chown system system /sys/bus/platform/devices/soc/soc:fpc1020/irq
+    chown system system /sys/bus/platform/devices/soc/soc:fpc1020/wakeup_enable
 
 on property:sys.boot_completed=1
     # Set allocstall_threshold to 0

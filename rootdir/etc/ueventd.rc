@@ -136,3 +136,6 @@ firmware_directories /vendor/firmware_mnt/image/
 
 # IR spi node
 /dev/spidev0.1            0660  system      system
+
+# Fingerprint
+/dev/goodix_fp            0660   system     system
