@@ -113,6 +113,9 @@ camera.disable_zsl_mode=1
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SM6150
 
+# Dalvik
+dalvik.vm.systemuicompilerfilter=speed
+
 # Data modules
 persist.vendor.data.iwlan.enable=true
 persist.vendor.data.mode=concurrent
