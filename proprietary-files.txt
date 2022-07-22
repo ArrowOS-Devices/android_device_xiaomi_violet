@@ -15,7 +15,7 @@ vendor/lib64/libcdsprpc.so|c9eb743013b62cdfa13eaf1f9c29945d2d3de826
 vendor/lib64/libmdsprpc.so|8809bf6a1205973af25b5fc70a6fbef51b19d4cc
 vendor/lib64/libsdsprpc.so|3955edaff3a2950999f14b0b45c0507bb22a7410
 
-# ADSP modules - from Redmi Note 10 Pro V12.5.9.0.RKFMIXM
+# ADSP modules - from Redmi Note 10 Pro V13.0.8.0.SKFMIXM
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so|136ee309e7c9892d55b3e87e45cd0ab39120658e
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|59cbdf5d84ba2ff64014941f3ad9e6c2c35e2c06
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|e25f1087edc95d2ff76c1e37787ca37aae2cf175
@@ -32,11 +32,11 @@ vendor/lib/rfsa/adsp/libdsp_streamer_add_constant.so|481cdec174e77e5cb555d715057
 vendor/lib/rfsa/adsp/libdsp_streamer_binning.so|00eb6acc7c864371b932f95ff98e98351c6508d8
 vendor/lib/rfsa/adsp/libdsp_streamer_skel.so|aee67209556f075cabdb55ddc70d7a76ffc74b3b
 vendor/lib/rfsa/adsp/libfastcvadsp.so|5c86de2533d60534ce5b07e6be13bcf988e4b03b
-vendor/lib/rfsa/adsp/libfastcvdsp_skel.so|50ac955393bfae796e5fcaccad0bd8c90bd5d16a
-vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|55d2c71535acdcbbdd7b0a3fe475249c8d99eb08
-vendor/lib/rfsa/adsp/libhexagon_nn_skel_secondary.so|43ad92a5fdd5a2f9abd631924c820ee2dd8702cf
+vendor/lib/rfsa/adsp/libfastcvdsp_skel.so|f3f79fd19ade4ec0947fd901d216e9c39ef5e276
+vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|79188b620f3fc48421267990d6dd20d738d6ddd4
+vendor/lib/rfsa/adsp/libhexagon_nn_skel_secondary.so|7f4e9f912d0c44555c9152c24887f9a2302c5393
 vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|44ee517f73908376a226f02a1ecd7ab22e5ae6ca
-vendor/lib/rfsa/adsp/libscveT2T_skel.so|b1c232b8fe7a11754a2f2148d4d2f12496a1dbe1
+vendor/lib/rfsa/adsp/libscveT2T_skel.so|e7b555579924337dc72badc71bdd49c13664454b
 vendor/lib/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
 vendor/lib/rfsa/adsp/misound_res.bin|d08fb852de9a354f60c18cd5186d2e1cdbbd2ad4
@@ -446,12 +446,12 @@ vendor/lib64/libssd.so|0a461a98eb314fe6e79bfe08457a88e48c52550a
 # DRM L1 - from Redmi Note 7 Pro V12.5.1.0.QFHINXM
 vendor/lib64/liboemcrypto.so|2cee717b25559030a61709e826b4a5dae6043c20
 
-# DRM widevine - from Redmi Note 10 Pro V12.5.9.0.RKFMIXM
-vendor/bin/hw/android.hardware.drm@1.3-service.widevine|07ac13a602f25788e54c1500c2957f561dd9f90a
+# DRM widevine - from Redmi Note 10 Pro V13.0.8.0.SKFMIXM
+vendor/bin/hw/android.hardware.drm@1.3-service.widevine|2158f47423c723a9da29bb81bb16987a1e715c21
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|a9ce64f68c86725c06c1b1429e90b04ff96ebf60
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
-vendor/lib64/mediadrm/libwvdrmengine.so|0662f681317faf77dca51a2bcce09d63935578de
-vendor/lib64/libwvhidl.so|cb7dc042695e099c16806075b120aca92557f0de
+vendor/lib64/mediadrm/libwvdrmengine.so|9692c6484923618f4063a25d4da3d1d5f133a6b1
+vendor/lib64/libwvhidl.so|ed08a0c11b4633f6b963fb304369dab98850855d
 
 # DSP - from 11500.02 SMxxx0
 vendor/bin/dspservice|a7344fc3d27a49df30858ebc3f73ee5818e752d4
@@ -877,8 +877,8 @@ vendor/etc/sensors/config/tmd2725.json
 vendor/etc/sensors/config/tmx4903.json
 vendor/etc/sensors/sns_reg_config
 
-# Soter - from Redmi Note 10 Pro V12.5.9.0.RKFMIXM
--app/SoterService/SoterService.apk|9d41ded29f97671f28874f1f4c5921844bc46a3a
+# Soter - from Redmi Note 10 Pro V13.0.8.0.SKFMIXM
+-vendor/app/SoterService/SoterService.apk|41cb6419b33ad446f944e1a2e31dd1df36dd1fcf
 
 # Soter - from 11500.02 SMxxx0
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|8e315a85eeeb94a51f1533c80212d2fc0ec88760
@@ -909,5 +909,5 @@ vendor/lib64/libtime_genoff.so|7b8bf7bf1eaa4df8f6613f4ece711a0797cd2e46
 # WLAN - from 11500.02 SMxxx0
 vendor/bin/cnss-daemon|a66bf400596682c3cb4d5cbdcdd3640333844eb1
 
-# Xiaomi MAC - from Redmi Note 10 Pro V12.5.9.0.RKFMIXM
-vendor/bin/nv_mac|292eab960355eae44a338b2011b0032bc7df422e
+# Xiaomi MAC - from Redmi Note 10 Pro V13.0.8.0.SKFMIXM
+vendor/bin/nv_mac|207d44cfbced7d7ae2c9f8cb98779b89dfe5c16a
