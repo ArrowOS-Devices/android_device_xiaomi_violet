@@ -19,29 +19,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common Awaken stuff.
-$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
+# Inherit some common ArrowOS stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
 
-# Boot Animation Resolution
-TARGET_BOOT_ANIMATION_RES := 1080
-
-# GApps
-TARGET_GAPPS_ARCH := arm64
-USE_GAPPS := true
-
-# Google Assistant
-TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
-
-# Google Recorder
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-
-# Official
-AWAKEN_BUILD_TYPE := OFFICIAL
-
-# Quick Tap
-TARGET_SUPPORTS_QUICK_TAP := true
-
-PRODUCT_NAME := awaken_violet
+PRODUCT_NAME := arrow_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
