@@ -516,7 +516,9 @@ vendor/firmware/a612_zap.b01
 vendor/firmware/a612_zap.b02
 vendor/firmware/a612_zap.elf
 vendor/firmware/a612_zap.mdt
-vendor/firmware/a630_sqe.fw
+
+# Graphics firmware - from Redmi Note 10 Pro V13.0.8.0.SKFMIXM
+vendor/firmware/a630_sqe.fw|6526cbb24d614dd67dc18e3c80d5c4374a0b3f63
 
 # Gatekeeper - from 11500.02 SMxxx0
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|2e33e885b92e413440511049025497945d6b8484
