@@ -516,10 +516,6 @@ vendor/firmware/a612_zap.b01
 vendor/firmware/a612_zap.b02
 vendor/firmware/a612_zap.elf
 vendor/firmware/a612_zap.mdt
-vendor/firmware/a615_zap.b00
-vendor/firmware/a615_zap.b01
-vendor/firmware/a615_zap.b02
-vendor/firmware/a615_zap.elf
 vendor/firmware/a630_sqe.fw
 
 # Gatekeeper - from 11500.02 SMxxx0
