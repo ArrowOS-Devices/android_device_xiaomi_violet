@@ -15,7 +15,7 @@ vendor/lib64/libcdsprpc.so|c9eb743013b62cdfa13eaf1f9c29945d2d3de826
 vendor/lib64/libmdsprpc.so|8809bf6a1205973af25b5fc70a6fbef51b19d4cc
 vendor/lib64/libsdsprpc.so|3955edaff3a2950999f14b0b45c0507bb22a7410
 
-# ADSP modules - from Redmi Note 10 Pro V13.0.8.0.SKFMIXM
+# ADSP modules - from Redmi Note 10 Pro V13.0.12.0.SKFMIXM
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so|136ee309e7c9892d55b3e87e45cd0ab39120658e
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|59cbdf5d84ba2ff64014941f3ad9e6c2c35e2c06
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|e25f1087edc95d2ff76c1e37787ca37aae2cf175
@@ -447,7 +447,7 @@ vendor/lib64/libssd.so|0a461a98eb314fe6e79bfe08457a88e48c52550a
 # DRM L1 - from Redmi Note 7 Pro V12.5.1.0.QFHINXM
 vendor/lib64/liboemcrypto.so|2cee717b25559030a61709e826b4a5dae6043c20
 
-# DRM widevine - from Redmi Note 10 Pro V13.0.8.0.SKFMIXM
+# DRM widevine - from Redmi Note 10 Pro V13.0.12.0.SKFMIXM
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine|2158f47423c723a9da29bb81bb16987a1e715c21
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|a9ce64f68c86725c06c1b1429e90b04ff96ebf60
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
@@ -517,7 +517,7 @@ vendor/firmware/a612_zap.b02
 vendor/firmware/a612_zap.elf
 vendor/firmware/a612_zap.mdt
 
-# Graphics firmware - from Redmi Note 10 Pro V13.0.8.0.SKFMIXM
+# Graphics firmware - from Redmi Note 10 Pro V13.0.12.0.SKFMIXM
 vendor/firmware/a630_sqe.fw|6526cbb24d614dd67dc18e3c80d5c4374a0b3f63
 
 # Gatekeeper - from 11500.02 SMxxx0
@@ -876,7 +876,7 @@ vendor/etc/sensors/config/tmd2725.json
 vendor/etc/sensors/config/tmx4903.json
 vendor/etc/sensors/sns_reg_config
 
-# Soter - from Redmi Note 10 Pro V13.0.8.0.SKFMIXM
+# Soter - from Redmi Note 10 Pro V13.0.12.0.SKFMIXM
 -vendor/app/SoterService/SoterService.apk|41cb6419b33ad446f944e1a2e31dd1df36dd1fcf
 
 # Soter - from 11500.02 SMxxx0
@@ -908,5 +908,5 @@ vendor/lib64/libtime_genoff.so|7b8bf7bf1eaa4df8f6613f4ece711a0797cd2e46
 # WLAN - from 11500.02 SMxxx0
 vendor/bin/cnss-daemon|a66bf400596682c3cb4d5cbdcdd3640333844eb1
 
-# Xiaomi MAC - from Redmi Note 10 Pro V13.0.8.0.SKFMIXM
+# Xiaomi MAC - from Redmi Note 10 Pro V13.0.12.0.SKFMIXM
 vendor/bin/nv_mac|207d44cfbced7d7ae2c9f8cb98779b89dfe5c16a
