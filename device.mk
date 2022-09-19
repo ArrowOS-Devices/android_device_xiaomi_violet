@@ -110,7 +110,7 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor
 
 PRODUCT_PACKAGES += \
-    Snap
+    GCamGOPrebuilt-V3
 
 PRODUCT_PACKAGES += \
     libshim_megvii
