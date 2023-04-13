@@ -100,10 +100,6 @@ vendor/lib64/libsoc_helper.so|a7de8fae284f55adf21ca161155b41d6df9dae56
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|23706dcfa35cc6f7dee934e13886c19a56a9aa12
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|ece3dafc4447e8302109851c3a6b0d3978b3506d
 
-# Bluetooth (aptX) - from Pixel 4A RP1A.200720.011
-system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
-system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
-
 # Camera
 vendor/etc/camera/beauty_ui9_intelligent_params.config
 vendor/etc/camera/eyelineblush.cng
