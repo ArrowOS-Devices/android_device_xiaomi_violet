@@ -15,7 +15,7 @@ vendor/lib64/libcdsprpc.so|dbb387be2104dfd73ccc37dc040d2f63ed919de0
 vendor/lib64/libmdsprpc.so|fe228b9363271c3540e0b86025a4fa9926a7400b
 vendor/lib64/libsdsprpc.so|e8d8faccb96253e8cd26775efc04ce964243a741
 
-# ADSP modules - from Redmi Note 10 Pro V13.0.12.0.SKFMIXM
+# ADSP modules - from Redmi Note 10 Pro V14.0.1.0.TKFMIXM
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so|136ee309e7c9892d55b3e87e45cd0ab39120658e
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|59cbdf5d84ba2ff64014941f3ad9e6c2c35e2c06
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|e25f1087edc95d2ff76c1e37787ca37aae2cf175
@@ -445,12 +445,12 @@ vendor/lib64/libssd.so|e255c1453e1ea5b7e02555bf3301791aba370baf
 # DRM L1 - from Redmi Note 7 Pro V12.5.1.0.QFHINXM
 vendor/lib64/liboemcrypto.so|2cee717b25559030a61709e826b4a5dae6043c20
 
-# DRM widevine - from Redmi Note 10 Pro V13.0.12.0.SKFMIXM
+# DRM widevine - from Redmi Note 10 Pro V14.0.1.0.TKFMIXM
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine|2158f47423c723a9da29bb81bb16987a1e715c21
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|a9ce64f68c86725c06c1b1429e90b04ff96ebf60
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
-vendor/lib64/mediadrm/libwvdrmengine.so|9692c6484923618f4063a25d4da3d1d5f133a6b1
-vendor/lib64/libwvhidl.so|ed08a0c11b4633f6b963fb304369dab98850855d
+vendor/lib64/libwvhidl.so|cbc02c1560ed8a9cbe697b5351a94def71692e75
+vendor/lib64/mediadrm/libwvdrmengine.so|1e029b294540037c72690ec5755426f14b98f511
 
 # DSP - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/bin/dspservice|a7344fc3d27a49df30858ebc3f73ee5818e752d4
@@ -515,7 +515,7 @@ vendor/firmware/a612_zap.b02
 vendor/firmware/a612_zap.elf
 vendor/firmware/a612_zap.mdt
 
-# Graphics firmware - from Redmi Note 10 Pro V13.0.12.0.SKFMIXM
+# Graphics firmware - from Redmi Note 10 Pro V14.0.1.0.TKFMIXM
 vendor/firmware/a630_sqe.fw|6526cbb24d614dd67dc18e3c80d5c4374a0b3f63
 
 # Gatekeeper - from LA.UM.9.1.r1-12900-SMxxx0.0
@@ -880,8 +880,8 @@ vendor/etc/sensors/config/tmd2725.json
 vendor/etc/sensors/config/tmx4903.json
 vendor/etc/sensors/sns_reg_config
 
-# Soter - from Redmi Note 10 Pro V13.0.12.0.SKFMIXM
--vendor/app/SoterService/SoterService.apk|41cb6419b33ad446f944e1a2e31dd1df36dd1fcf
+# Soter - from Redmi Note 10 Pro V14.0.1.0.TKFMIXM
+-vendor/app/SoterService/SoterService.apk|25a74553f45ec8e122fc9c7738b632f063b411e3
 
 # Soter - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|8e315a85eeeb94a51f1533c80212d2fc0ec88760
@@ -912,5 +912,5 @@ vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
 # WLAN - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/bin/cnss-daemon|466fbe54a79f244475adb13ddd0e55f17fee3d66
 
-# Xiaomi MAC - from Redmi Note 10 Pro V13.0.12.0.SKFMIXM
+# Xiaomi MAC - from Redmi Note 10 Pro V14.0.1.0.TKFMIXM
 vendor/bin/nv_mac|207d44cfbced7d7ae2c9f8cb98779b89dfe5c16a
