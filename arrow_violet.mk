@@ -33,3 +33,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="violet"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# ArrowOS additions
+DEVICE_MAINTAINER := raghavt20
